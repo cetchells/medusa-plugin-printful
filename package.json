@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "rimraf dist && tsc",
-    "prepare": "cross-env NODE_ENV=production yarn run build",
+    "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "tsc --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
